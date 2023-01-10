@@ -12,4 +12,3 @@ Create a new Environmrnt for the project
 ```
 conda create -p boston-project-env python -y
 ```
-
