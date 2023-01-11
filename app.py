@@ -33,4 +33,4 @@ def predict():
     return render_template("home.html",prediction_text="The House Price Prediction is {}".format(output))
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
